@@ -18,24 +18,10 @@ Version: 1.0
 		<link href='https://fonts.googleapis.com/css?family=Alegreya+SC' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?> /style.css">
 	</head>
+	
+<?php get_header(); ?>
 
 	<body>
-		
-		<header>
-			<nav>
-				<ul>
-					<li class="current_page_item"><a href="index.html">Menu</a></li>
-					<li><a href="sobre.html">Sobre</a></li>
-					<li><a href="contato.html">Contato</a></li>
-				</ul>
-			</nav>
-
-			<h1><img src="./img/rest.png" alt="Rest"></h1>
-
-			<p>Rua Marechal 29 – Copacabana – Rj</p>
-			<p class="telefone">2422-9201</p>
-		</header>
-
 		<section class="container">
 			<h2 class="subtitulo">Menu da Semana</h2>
 
@@ -95,17 +81,7 @@ Version: 1.0
 
 		</section>
 
-		<footer>
-			<nav class="nav-footer">
-				<ul>
-					<li class="current_page_item"><a href="index.html">Menu</a></li>
-					<li><a href="sobre.html">Sobre</a></li>
-					<li><a href="contato.html">Contato</a></li>
-				</ul>
-			</nav>
-
-			<p>Rest © 2015. Alguns direitos reservados.</p>
-		</footer>
+		<?php get_footer(); ?>
 
 	</body>
 </html>

@@ -518,9 +518,9 @@ html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, em, img
      background-color: #202020;
  }
  
- header {
+ .bg {
      text-align: center;
-     background: url("../img/rest-bg.jpg") no-repeat center center;
+     background: url("./img/rest-bg.jpg") no-repeat center center;
      background-size: cover;
      color: #fff;
      padding-bottom: 30px;
